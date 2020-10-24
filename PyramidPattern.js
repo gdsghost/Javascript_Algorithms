@@ -1,13 +1,6 @@
-var rows = 5;
-for(var i=1; i<=rows; i++)
-{
-for(var k=1; k<=( rows-i ); k++)
-{
-document.write(" ");
-}
-for(var j=1; j<=i; j++)
-{
-document.write("* ");
-}
-document.write("<br/>");
+for(i=5;i>=1;i--) {
+    for(j=i;j>=1;j--){
+        console.log(j);
+    }
+        console.log("\n");
 }
